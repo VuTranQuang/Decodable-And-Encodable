@@ -13,6 +13,8 @@
 		973D04E9228A538900780B94 /* Decodable_And_Encodable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 973D04E7228A538900780B94 /* Decodable_And_Encodable.xcdatamodeld */; };
 		973D04EB228A538B00780B94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 973D04EA228A538B00780B94 /* Assets.xcassets */; };
 		973D04EE228A538B00780B94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 973D04EC228A538B00780B94 /* LaunchScreen.storyboard */; };
+		973D04F6228A5C0700780B94 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973D04F5228A5C0700780B94 /* Post.swift */; };
+		973D04F8228A635300780B94 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973D04F7228A635300780B94 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		973D04EA228A538B00780B94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		973D04ED228A538B00780B94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		973D04EF228A538B00780B94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		973D04F5228A5C0700780B94 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		973D04F7228A635300780B94 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				973D04E0228A538900780B94 /* AppDelegate.swift */,
 				973D04E2228A538900780B94 /* ViewController.swift */,
+				973D04F7228A635300780B94 /* User.swift */,
+				973D04F5228A5C0700780B94 /* Post.swift */,
 				973D04E4228A538900780B94 /* Main.storyboard */,
 				973D04EA228A538B00780B94 /* Assets.xcassets */,
 				973D04EC228A538B00780B94 /* LaunchScreen.storyboard */,
@@ -141,6 +147,8 @@
 				973D04E3228A538900780B94 /* ViewController.swift in Sources */,
 				973D04E9228A538900780B94 /* Decodable_And_Encodable.xcdatamodeld in Sources */,
 				973D04E1228A538900780B94 /* AppDelegate.swift in Sources */,
+				973D04F8228A635300780B94 /* User.swift in Sources */,
+				973D04F6228A5C0700780B94 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
